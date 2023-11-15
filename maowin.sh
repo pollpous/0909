@@ -1,4 +1,4 @@
-wget -O ng.sh https://github.com/pollpous/mao/raw/main/ngrok.sh > /dev/null 2>&1
+wget -O ng.sh https://github.com/pollpous/0909/blob/main/ngrok.sh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 
@@ -20,7 +20,7 @@ read -p "Paste Ngrok Authtoken: " CRP
 ./ngrok authtoken $CRP 
 
 clear
-echo "Repo: https://github.com/pollpous/mao"
+echo "Repo: https://github.com/pollpous/0909"
 echo "======================="
 echo "choose ngrok region (for better connection)."
 echo "======================="
